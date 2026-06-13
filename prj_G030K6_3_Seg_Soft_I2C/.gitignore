@@ -1,0 +1,26 @@
+# STM32CubeIDE 编译输出
+Debug/
+
+# Eclipse / CubeIDE 临时文件
+.settings/
+*.launch
+
+# 编译中间文件
+*.o
+*.d
+*.su
+*.cyclo
+
+# Hex / Bin（可选，如需发布固件可取消注释）
+# *.hex
+# *.bin
+
+# 链接输出（elf 太大，不提交）
+*.elf
+*.map
+*.list
+
+# 操作系统临时文件
+Thumbs.db
+*.bak
+*.tmp
